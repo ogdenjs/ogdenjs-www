@@ -1,3 +1,4 @@
 {
-  "name": "ogdenjs-www"
+  "name": "ogdenjs-www",
+  "root": "dist"
 }

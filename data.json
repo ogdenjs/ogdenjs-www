@@ -1,3 +1,9 @@
 {
-  "title": "Welcome to Zab"
+  "title": "Ogden.js",
+  "videos": [
+    {"title": "JWTs and OAuth", "src": "https://www.youtube.com/embed/pqAHIUfdrfc"},
+    {"title": "Intro to React using NPM and Zab", "src": "https://www.youtube.com/embed/Hi_z3TbSW6g"},
+    {"title": "Intro to Angular.js using NPM", "src": "https://www.youtube.com/embed/sSo3JZsea3M"},
+    {"title": "Ionic Demo using Zab", "src": "https://www.youtube.com/embed/tOXhIGQNKsc"}
+  ]
 }
