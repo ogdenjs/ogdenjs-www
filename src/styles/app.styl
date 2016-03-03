@@ -10,15 +10,14 @@ body
   font-family 'Lato', sans-serif
   font-weight 300
   text-align center
-  color white
-  background linear-gradient(gradLgt, gradDrk) no-repeat center center fixed
-  background-color gradDark
-  background-size cover
+
+.logo
+  width 200px
+  margin-top 50px
 
 .videos
   max-width 800px
-  margin auto
-  padding-top 50px
+  margin 70px auto 0
   .video
     display inline-block
     width 350px
@@ -27,17 +26,18 @@ body
     .title
       font-size 20px
       margin-bottom 5px
+      color green-drk
+      font-weight 700
     iframe
       border 1px solid #555
 
 footer
-  margin 50px 0
+  margin 100px 0
   a
     text-decoration none
-    color zabOrange
+    color green-lgt
     font-size 18px
+    font-weight 700
+    margin 0 20px
     &:hover
       opacity .7
-    &:not(:last-child):after
-      content '\00B7'
-      padding 0 10px
