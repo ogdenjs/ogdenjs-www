@@ -1,3 +1,1 @@
-import welcome from './_welcome'
-
-welcome()
+console.log('welcome to ogden.js')
