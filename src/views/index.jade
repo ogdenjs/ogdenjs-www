@@ -6,7 +6,8 @@ block content
   div.videos
     each video in videos
       div.video
-        div.title= video.title
+        h2.title= video.title
+        h4.author by #{video.author}
         iframe(width="350", height="200", src=video.src+"?showinfo=0", frameborder="0", allowfullscreen)
 
   footer
