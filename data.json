@@ -1,5 +1,4 @@
 {
-  "title": "OgdenJS",
   "videos": [
     {"title": "Callbacks and Promises in Node", "author": "Jason Maurer", "src": "https://www.youtube.com/embed/uAERmCn4enU"},
     {"title": "Ionic Demo using Zab", "author": "Tanner Linsley", "src": "https://www.youtube.com/embed/tOXhIGQNKsc"},

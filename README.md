@@ -1,8 +1,7 @@
-# ogdenjs.com
+# OgdenJS Marketing Site
 
-### Getting Started
-1. Install Node.js using [NVM](http://github.com/creationix/nvm) for OSX/Linux or by going to [Nodejs.org](http://nodejs.org) for Windows
-2. ```npm install -g zab```
-3. ```zab watch --open```
-4. ```zab --help``` for more info
-5. Visit us at [zab.io](http://zab.io)
+## Getting Started
+
+- `npm install` - Install project dependencies
+- `npm run watch` - Runs build system in watch mode with local static server
+- `npm run build` - Builds production-ready version of site
