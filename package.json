@@ -10,7 +10,8 @@
   },
   "scripts": {
     "watch": "node build.js --watch",
-    "build": "node build.js"
+    "build": "node build.js",
+    "deploy": "npm run build && surge --project dist --domain ogdenjs.com"
   },
   "dependencies": {},
   "devDependencies": {
@@ -26,6 +27,7 @@
     "nib": "1.1.2",
     "pug": "2.0.0-beta6",
     "rupture": "0.6.2",
-    "superstatic": "4.0.3"
+    "superstatic": "4.0.3",
+    "surge": "0.18.0"
   }
 }
